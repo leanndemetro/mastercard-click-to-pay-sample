@@ -4,17 +4,13 @@ This is a simple application demonstrating how to use the Mastercard Click to Pa
 
 ## Prerequisites:
 
-Create a env.js file:
+Update the following line to contain your DPA ID.
 
-```shell
-touch env.js
-```
+``` <script src="https://sandbox.src.mastercard.com/srci/integration/2/lib.js?srcDpaId={DPAID}&locale=en_US"></script>```
 
-Add the following code to the env.js file:
+Update the following with your spreedly key.
 
-```javascript
-const ENV_DPA_ID = YOUR_DPA_ID;
-```
+```const spreedlyEnvKey = {SpreedlyKey}```
 
 Install dependencies:
 
